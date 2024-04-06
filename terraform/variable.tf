@@ -2,7 +2,6 @@ variable "location" {
   default = "West Europe"
 }
 
-
 variable "network" {
   default = ["10.5.0.0/16", "10.5.1.0/24", "10.5.2.0/24"]
 }
