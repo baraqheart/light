@@ -1,6 +1,10 @@
 # Case study of lightApp
 
-this repo contains practical cloud work of deploying an app 
+this repo contains practical cloud work of deploying a microservice app, with each microservice in a different repository
+
+- [https://github.com/baraqheart/light](main)
+- https://github.com/baraqheart/lightApp
+- https://github.com/baraqheart/lightApp-server
 
 the repository contains 2 diretories, terraform and k8s-manifest, where the terraform codes contains all the terraform 
 related codes for managing and maintaining the state of the infrastructure and k8s-manifests contains kubernetes
