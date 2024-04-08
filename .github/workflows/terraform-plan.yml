@@ -5,7 +5,7 @@ on: [ pull_request, push ]
 
 jobs:
   terraform:
-    if: github.repository != 'hashicorp-education/learn-terraform-github-actions'
+    if: github.repository != 'baraqheart/light'
     name: "Terraform Plan"
     runs-on: ubuntu-latest
     environment: production
