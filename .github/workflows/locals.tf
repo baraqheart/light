@@ -1,3 +1,0 @@
-locals {
-  projectName = "light"
-}
