@@ -1,9 +1,7 @@
 name: 'Terraform Apply'
 
 on:
-  push:
-    branches:
-    - main
+  push  
   
 #env:
  # TF_CLOUD_ORGANIZATION: "YOUR-ORGANIZATION-HERE"
