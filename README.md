@@ -26,7 +26,7 @@ the cluster contains 2 nodes for high availability, following security best prac
 # resources
 this is the hierarchy of files the terraform directory
 
-![]()
+![hir](https://github.com/baraqheart/light/blob/master/screenshots/asuccess.PNG?raw=true)
 
 ### prerequisite
 - Providers.tf : this file indicates as to which provider terraform will use for provisioning
@@ -86,5 +86,17 @@ manages your control plane and lets you focus on building powerful microservies 
 this application cicd is managed through github actions with jobs to perform unit testing,
 linting, building docker images and deploying to azure kuberneted service
 
+However, step one was managed in this repo, and this is the result and encounter with the pipeline
+
+![](https://github.com/baraqheart/light/blob/master/screenshots/error2e.PNG?raw=true)
+
+refactored code and still persists, but working tirelessly to profer a better solution
+
 # challenges
-- major challenge was encountered with the little time
+- major challenge was encountered with the little time and unable to troubleshoot effectively, this work is an original work done by me.
+
+- encountered the latest terraform creash a couple of time and therefore, I had decided to use an old version
+
+  ![](https://github.com/baraqheart/light/blob/master/screenshots/terraform%20crash.PNG?raw=true)
+
+  
